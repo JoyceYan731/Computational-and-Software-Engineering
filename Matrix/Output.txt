@@ -1,0 +1,49 @@
+Output 
+
+HP 1 
+
+x is 1.0
+y is 1.0
+e is 0.01, and the second norm of the residual vector is 0.0
+
+x is -7.91
+y is 10.0
+e is 0.001, and the second norm of the residual vector is 0.0
+
+x is -97.01
+y is 100.0
+e is 1.0E-4, and the second norm of the residual vector is 0.0
+
+x is -988.01
+y is 1000.0
+e is 1.0E-5, and the second norm of the residual vector is 0.0
+
+x is -9898.009999999998
+y is 9999.999999999998
+e is 1.0000000000000002E-6, and the second norm of the residual vector is 1.1641532182693481E-10
+
+x is -98998.00999999998
+y is 99999.99999999997
+e is 1.0000000000000002E-7, and the second norm of the residual vector is 1.862645149230957E-9
+
+x is -989998.0099999998
+y is 999999.9999999999
+e is 1.0000000000000002E-8, and the second norm of the residual vector is 2.1073424255447017E-8
+
+x is -9899998.009999998
+y is 9999999.999999998
+e is 1.0000000000000003E-9, and the second norm of the residual vector is 1.1920928955078125E-7
+
+
+HP 2
+the value of X is :[0.29153605015673983, 2.6300940438871474, -1.7194357366771162, 0.2, -0.1839080459770115]
+the calculate result is :[5.0, 4.0, 2.9999999999999982, 2.0, 1.0000000000000004]
+
+HP 3
+
+the Aone for full matrix is :24.0
+the AInfinite for full matrix is :24.0
+
+the Aone for sparse matrix is :24.0
+the AInfinite for sparse matrix is :24.0
+
