@@ -1,3 +1,0 @@
-1 Matrix Conditioning in Ax = b -- ill conditioning
-2 Choosing pivot using Symbolic LU Factorization -- minimum fill-ins
-3 Calculate the upper bounds of ||A||(1) and ||A||(infinite) in the full-matrix and sparse-matrix formats.  
