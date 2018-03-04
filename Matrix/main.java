@@ -31,6 +31,8 @@ public class main {
 		double[] calResult = new double[result.length];
 		calResult=rowFunction.fullmatrixProduct(fullM1, valueX, calResult);
 		System.out.println("the calculate result is :"+Arrays.toString(calResult));
+		double[] trueResult = new double[] {5,4,3,2,1};
+		test.secondNorm(calResult,trueResult);
 		System.out.println();
 		
 		//HP--Aone and AInfinite
