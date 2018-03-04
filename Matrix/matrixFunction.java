@@ -189,7 +189,7 @@ public class matrixFunction {
 			for(int column=0;column<colSize;column++) {
 				double temp = 0;
 				for(int row=0;row<rowSize;row++) {
-				temp += rowFunction.retriveMethodHelp1(value, rowPtr, colInd, row, column);
+				temp += Math.abs(rowFunction.retriveMethodHelp1(value, rowPtr, colInd, row, column));
 				}
 				if(temp>max) max = temp;
 			}
@@ -201,7 +201,7 @@ public class matrixFunction {
 			for(int row=0;row<rowSize;row++) {
 				double temp = 0;
 				for(int column=0;column<colSize;column++) {
-				temp += rowFunction.retriveMethodHelp1(value, rowPtr, colInd, row, column);
+				temp += Math.abs(rowFunction.retriveMethodHelp1(value, rowPtr, colInd, row, column));
 				}
 				if(temp>max1) max1 = temp;
 			}
